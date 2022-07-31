@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f58d17;
+}
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ip-display,
+.location-display {
+  color: white;
+  font-size: calc(4rem + 1vw);
+  margin: 0.8rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.8rem 1.5rem;
+  color: white;
+  background-color: #1b2430;
+  cursor: pointer;
+  transition: opacity 250ms linear;
+}
+.btn:hover {
+  color: coral;
+  opacity: 0.8;
+}
